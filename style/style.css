@@ -121,6 +121,8 @@ img {
   text-align: center;
   border-radius: 8px;
 }
+/* <!-- =-=-=-=-=-=-=-=-=-The Legal Practice Area=-=-=-=-=-=-=- --> */
+
 .legal-area-section {
   width: 80%;
   margin: 0 auto;
@@ -154,7 +156,16 @@ img {
 .row {
   text-align: center;
   border: 1px solid rgb(231, 231, 231);
-  padding: 20px 30px 40px 30px  ;
+  padding: 20px 30px 40px 30px;
+}
+.row-2 {
+  box-sizing: border-box;
+  border: 1px solid rgb(231, 231, 231);
+  background: linear-gradient(
+    180deg,
+    rgb(243, 243, 243),
+    rgba(243, 243, 243, 0) 100%
+  );
 }
 .row-img {
   width: 71.8px;
@@ -177,6 +188,73 @@ img {
   margin-top: 24px;
   margin-bottom: 30px;
 }
-.row-img{
-    margin-top: 24px;
+.row-img {
+  margin-top: 24px;
+}
+/* <!-- =-=-=-=-=-=-=-=-=-What Our Client Say=-=-=-=-=-=-=- --> */
+.client-section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.client-container {
+  background-image: url("../images/banner.png");
+  border-radius: 8px;
+  background: rgba(17, 17, 17, 0.8);
+}
+/* <!-- =-=-=-=-=-=-=-=-=-Frequently Asked Any Questions=-=-=-=-=-=-=- --> */
+.quary-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.quary-container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.quary-content {
+  width: 50%;
+}
+.card-1, .card-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(243, 243, 243);
+  padding: 32px;
+  margin-top: 20px;
+}
+.card-2{
+  gap: 95px;
+  padding: 15px;
+}
+.addition-icon{
+  padding-top: 25px;
+}
+.card h1 {
+  color: rgb(65, 64, 64);
+  font-family: EB Garamond;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 31px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.card p {
+  color: rgb(112, 112, 112);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-2{
+  display: flex;
+}
+.quary-img {
+  width: 50%;
 }
