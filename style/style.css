@@ -265,10 +265,10 @@ padding-bottom: 200px;
 }
 .card-2 {
   gap: 95px;
-  padding: 15px;
+  padding: 20px;
 }
 .addition-icon {
-  padding-top: 25px;
+  padding-top:10 px;
 }
 .card-box h1 {
   color: rgb(65, 64, 64);
@@ -316,7 +316,7 @@ padding-bottom: 200px;
 .box-content {
   text-align: center;
   border: 1px solid rgb(207, 207, 207);
-  padding: 45px;
+  padding: 50px;
   background: rgb(243, 243, 243);
 }
 .box-content img {
@@ -349,7 +349,7 @@ textarea,
 .btn-3 {
   width: 510px;
   height: 65px;
-  margin-bottom: 26px;
+  margin-bottom: 20px;
   border-radius: 8px;
   background: rgb(243, 243, 243);
   border: none;
@@ -362,7 +362,7 @@ textarea,
 }
 textarea {
   height: 160px;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 .btn-3 {
   width: 526px;
